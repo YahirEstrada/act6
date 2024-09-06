@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Valores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Control de Valores</h1>
+        <div class="slider-wrapper">
+            <label for="Ktms" class="slider-label">Ajuste el valor de TMS:</label>
+            <input type="range" min="5" max="20" step="1" value="5" id="Ktms" class="slider">
+            <output id="Kvaluetms">5</output>
+        </div>
+        <div id="TM" class="value-container">TMS: <span id="TMSvalue">5</span></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particle-api-js@8/dist/particle.min.js"></script>
+    <script src="act6.js"></script>
+</body>
+</html>

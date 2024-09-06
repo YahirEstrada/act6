@@ -1,0 +1,106 @@
+/* Estilo general para el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4d7f9; /* Fondo rosa claro */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+  text-align: center;
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  padding: 20px;
+  width: 360px; /* Ancho del contenedor */
+  box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+/* Estilo para el slider-wrapper */
+.slider-wrapper {
+  margin-bottom: 20px;
+}
+
+/* Etiqueta del slider */
+.slider-label {
+  display: block;
+  font-size: 1.2em;
+  color: #bb3296;; /* Color rosa  */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilo para el slider (input) */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 12px; /* Mayor altura para mejor apariencia */
+  background: #ddd; /* Fondo gris claro */
+  border-radius: 6px; /* Bordes redondeados */
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  margin-top: 10px;
+}
+
+/* Thumb del slider */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 24px; /* Ancho del thumb */
+  height: 24px; /* Alto del thumb */
+  background: #bb3296;; /* Color del thumb */
+  border-radius: 50%; /* Thumb circular */
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.slider::-moz-range-thumb {
+  width: 24px; /* Ancho del thumb */
+  height: 24px; /* Alto del thumb */
+  background: #00796b; /* Color del thumb */
+  border-radius: 50%; /* Thumb circular */
+  cursor: pointer;
+}
+
+/* Estilo para el track del slider */
+.slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 12px;
+  background: #ddd;
+  border-radius: 6px;
+}
+
+.slider::-moz-range-track {
+  width: 100%;
+  height: 12px;
+  background: #bb3296;
+  border-radius: 6px;
+}
+
+/* Estilo para el output asociado al slider */
+#Kvaluetms {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #bb3296;
+  font-weight: bold;
+}
+
+/* Contenedor del valor de TMS */
+.value-container {
+  margin-top: 20px;
+}
+
+/* Estilo para el span que contiene el identificador TM */
+#TM {
+  font-size: 1.5em;
+  color:#bb3296;
+  font-weight: bold;
+}
